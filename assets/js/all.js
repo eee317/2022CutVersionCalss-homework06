@@ -1,4 +1,6 @@
-$(function() {
+"use strict";
+
+$(function () {
   console.log('Hello Bootstrap5');
 });
 var swiper = new Swiper(".mySwiper", {
@@ -9,12 +11,13 @@ var swiper = new Swiper(".mySwiper", {
   },
   navigation: {
     nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    prevEl: ".swiper-button-prev"
   },
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
+    clickable: true
   },
   mousewheel: true,
-  keyboard: true,
+  keyboard: true
 });
+//# sourceMappingURL=all.js.map

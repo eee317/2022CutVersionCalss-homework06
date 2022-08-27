@@ -1,10 +1,55 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: class
----
-<main class="class">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Boostrap Index
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="bg-bgDark">
+  <nav class="navbar border-linear navbar-expand-lg navbar-bgDarkLight bg-bgDarkLight">
+    <div class="container-fluid">
+      <div class="container d-lg-flex align-items-lg-center justify-content-lg-between">
+        <a class="navbar-brand" href="index.html">
+          <img class="d-lg-block d-none" src="./assets/images/logo.svg" alt="logo" height="42">
+          <img class="d-lg-none" src="./assets/images/logo2.svg" alt="logo" height="42">
+        </a>
+        <button class="navbar-toggler text-white float-end" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon d-flex align-items-center justify-content-end">
+            <div class="navbar-hamburger-icon"></div>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item me-lg-7">
+              <a class="nav-link active text-white fs-7" aria-current="page" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item me-lg-7">
+              <a class="nav-link text-white fs-7" href="class.html">課程介紹</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center d-lg-block">
+              <button type="button" class="nav-link text-white btn d-flex align-items-center fs-7">
+                <span class="material-icons me-1 p-0 fs-5">
+                  account_circle
+                </span>登入
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="class">
   <section class="container">
     <div class="row">
       <ul class="overflow-auto d-flex pt-6 pb-5">
@@ -133,3 +178,14 @@ current: class
     </div>
   </section>
 </main>
+
+    <footer class="bg-bgDarkLight text-center text-textGray py-5">
+      <p class="m-0">Coding Home © 2022 All Rights Reserved</p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
