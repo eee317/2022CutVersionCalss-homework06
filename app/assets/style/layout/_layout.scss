@@ -1,0 +1,20 @@
+@mixin bs5-xs {
+  @media (min-width:0px) {
+    @content;
+  }
+}
+@mixin bs5-sm {
+  @media (min-width:576px) {
+    @content;
+  }
+}
+@mixin bs5-md {
+  @media (min-width:768px) {
+    @content;
+  }
+}
+@mixin bs5-lg {
+  @media (min-width:992px) {
+    @content;
+  }
+}

@@ -1,0 +1,13 @@
+.class{
+  .btn-outline-white:hover {
+    color: $primaryGreen;
+    background: none;
+    border-color: $primaryGreen;
+  }
+}
+@include bs5-sm {
+  .class-card-body {
+    width: 65%;
+  }
+}
+

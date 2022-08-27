@@ -1,0 +1,20 @@
+.border-linear {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, $primaryGreen 50%, $primaryBlue 50%);
+}
+.text-linear-garadient {
+  background: linear-gradient(0turn, $primaryGreen 20%, $primaryBlue 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.border-bottom-line {
+  border-bottom: 3px solid $primaryGreen;
+  width: 50px;
+  height: 3px;
+  display: inline;
+}
+
+.button-color {
+  background:linear-gradient(.85turn, $primaryGreen , $primaryBlue );
+}
