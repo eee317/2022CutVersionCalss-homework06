@@ -14115,10 +14115,14 @@ fieldset:disabled .btn {
 }
 
 .border-linear {
-  border-bottom: 2px solid;
-  -o-border-image: -o-linear-gradient(left, #62DB54 50%, #09ACF5 50%);
-     border-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #62DB54), color-stop(50%, #09ACF5));
-     border-image: linear-gradient(to right, #62DB54 50%, #09ACF5 50%);
+  position: absolute;
+  display: block;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#62DB54), color-stop(50%, #62DB54), color-stop(50%, #09ACF5), to(#09ACF5));
+  background: -o-linear-gradient(left, #62DB54 0%, #62DB54 50%, #09ACF5 50%, #09ACF5 100%);
+  background: linear-gradient(to right, #62DB54 0%, #62DB54 50%, #09ACF5 50%, #09ACF5 100%);
 }
 
 .text-linear-garadient {
@@ -14452,14 +14456,17 @@ fieldset:disabled .btn {
   .index .card-number {
     top: -38px;
   }
-  .index-cardBg-01, .index-cardBg-02, .index-cardBg-03, .index-cardBg-04 {
-    height: 615px;
-  }
   .index-card-color {
     color: #343a40;
   }
   .index-addUsArea-text {
     width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .index-cardBg-01, .index-cardBg-02, .index-cardBg-03, .index-cardBg-04 {
+    height: 615px;
   }
 }
 
