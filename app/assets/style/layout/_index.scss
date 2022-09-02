@@ -141,9 +141,6 @@
       top: -38px;
     }
   }
-  // .index-cardBg-01, .index-cardBg-02, .index-cardBg-03, .index-cardBg-04{
-  //   height: 615px;
-  // }
   .index-card-color {
     color: $gray-800;
   }
@@ -151,7 +148,7 @@
     width: 70%;
   }
 }
-@include bs5-md {
+@include bs5-lg {
   .index-cardBg-01, .index-cardBg-02, .index-cardBg-03, .index-cardBg-04{
     height: 615px;
   }
