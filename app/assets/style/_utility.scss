@@ -1,6 +1,10 @@
 .border-linear {
-  border-bottom: 2px solid;
-  border-image: linear-gradient(to right, $primaryGreen 50%, $primaryBlue 50%);
+  position: absolute;
+  display: block;
+  bottom:0;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, #62DB54 0%, #62DB54 50%, #09ACF5 50%, #09ACF5 100%);
 }
 .text-linear-garadient {
   background: linear-gradient(0turn, $primaryGreen 20%, $primaryBlue 80%);
