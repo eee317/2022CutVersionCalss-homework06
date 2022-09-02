@@ -14118,7 +14118,7 @@ fieldset:disabled .btn {
   position: absolute;
   display: block;
   bottom: 0;
-  height: 1px;
+  height: 2px;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#62DB54), color-stop(50%, #62DB54), color-stop(50%, #09ACF5), to(#09ACF5));
   background: -o-linear-gradient(left, #62DB54 0%, #62DB54 50%, #09ACF5 50%, #09ACF5 100%);
